@@ -1,5 +1,7 @@
 🧠 Virtual Logic Gate Simulator
 
+run it on:- https://vlogic-simulator.netlify.app/
+
 A fully interactive, browser-based digital circuit simulator built using React, Vite, and a custom logic evaluation engine.
 Users can create, simulate, and experiment with logic circuits — just like a real digital electronics lab.
 
