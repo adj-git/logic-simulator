@@ -1,16 +1,173 @@
-# React + Vite
+🧠 Virtual Logic Gate Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully interactive, browser-based digital circuit simulator built using React, Vite, and a custom logic evaluation engine.
+Users can create, simulate, and experiment with logic circuits — just like a real digital electronics lab.
 
-Currently, two official plugins are available:
+🚀 Features
+🎛 Core Logic Gates
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+AND
 
-## React Compiler
+OR
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+NOT
 
-## Expanding the ESLint configuration
+NAND
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+NOR
+
+XOR
+
+XNOR
+
+BUFFER
+
+🟢 Input / Output Components
+
+Switch (toggle-able input)
+
+Clock generator
+
+LED (visual output indicator)
+
+Standard INPUT/OUTPUT blocks
+
+🔀 Advanced Components
+
+2:1 Multiplexer (MUX2)
+
+D Flip-Flop (basic sequential logic)
+
+(More advanced components like JK FF, counters, and shift registers incoming!)
+
+🧩 Circuit Builder
+
+Drag-and-drop components onto the canvas
+
+Connect components using wires
+
+Automatically evaluates circuit logic in real time
+
+Clean dark UI for clarity and focus
+
+Zoom in/out with rescaling grid
+
+Wires highlight active signals
+
+Connect & disconnect wires manually
+
+Supports large circuits smoothly
+
+🤖 AI Assistant (Work in Progress)
+
+An integrated AI assistant (Groq/OpenAI powered) will eventually help users:
+
+Auto-build circuits from text instructions
+
+Place components intelligently
+
+Auto-wire connections
+
+Explain circuit behavior
+
+Convert logical expressions into circuits
+
+Assistant panel is currently collapsible and modularized for future upgrades.
+
+🎨 Custom Gate Rendering (Planned)
+
+Future updates will include:
+
+Beautiful SVG gate symbols
+
+Custom visual styles for each component
+
+Figma-designed circuit symbols
+
+Optional retro or neon themes
+
+🛠 Tech Stack
+Frontend
+
+React
+
+Vite
+
+Custom SVG renderer for gates & wires
+
+Canvas-like drag interaction
+
+State-based circuit simulation
+
+Backend (AI Proxy)
+
+Node.js + Express
+
+Groq/OpenAI API relay
+
+.env environment variable support
+
+Deployed separately (Render/Vercel recommended)
+
+📂 Project Structure (Simplified)
+/src
+  /components
+    /gates        → future modular gate definitions
+    Assistant.jsx → AI panel
+  App.jsx         → main circuit editor
+  index.css       → global styles
+server.cjs        → backend AI proxy
+package.json
+vite.config.js
+
+🚀 Running Locally
+1. Install dependencies
+npm install
+
+2. Start backend (AI proxy)
+node server.cjs
+
+3. Start frontend
+npm run dev
+
+
+App runs at:
+
+http://localhost:5173
+
+
+Backend runs at:
+
+http://localhost:5174
+
+🌐 Deployment
+
+Recommended setup:
+
+Frontend → Vercel
+
+Backend → Render
+
+Add environment variable:
+
+VITE_BACKEND_URL=https://your-backend-url/api/assistant
+
+🤝 Contributing
+
+This project is open for improvements:
+
+New gates
+
+Better UI
+
+AI Assistant integration
+
+Sequential logic blocks
+
+Gate rendering icons
+
+PRs welcome!
+
+📜 License
+
+MIT License — free to use, modify, and build upon.
