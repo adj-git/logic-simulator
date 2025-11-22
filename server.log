@@ -1,0 +1,189 @@
+[2025-11-16T13:32:09.709Z] Starting robust AI proxy
+[2025-11-16T13:32:09.724Z] GROQ_API_KEY set? true OPENAI_API_KEY set? true port 5174
+[2025-11-16T13:32:09.729Z] AI proxy listening on http://localhost:5174/api/assistant
+[2025-11-16T13:32:40.528Z] [proxy] incoming request provider= groq model= llama-3.1-8b-instant messages= 2
+[2025-11-16T13:32:40.530Z] [proxy] first message snippet: You are a simple, friendly assistant for a browser logic-circuit builder. Always reply with two parts:
+1) A one-sentence plain-English summary at the top (very simple).
+2) An ACTION block at the end, each action on its own line prefixed with "ACTION:".
+
+When the user requests to add components and wire them, output ADD actions (e.g. ACTION: add_switch_at 200 200). The frontend will **create** add_* items immediately (so they have real IDs). After creating items, the assistant will be called again with the updated canvas snapshot, and must then output connection actions that use the real IDs.
+
+Valid action forms (case-insensitive after "ACTION:"):
+- add_<type>
+- add_<type>_at <x> <y>
+- connect <fromId> <toId>
+- connect_by_ports <fromId> <fromPort> <toId> <toPort>
+- place_chain dff <N> <star
+[2025-11-16T13:32:41.250Z] [proxy] upstream result status= 200 ok= true
+[2025-11-16T13:32:41.252Z] [proxy] reply length: 93
+[2025-11-16T13:32:41.267Z] [proxy] incoming request provider= groq model= llama-3.1-8b-instant messages= 2
+[2025-11-16T13:32:41.269Z] [proxy] first message snippet: You are a simple, friendly assistant for a browser logic-circuit builder. Always reply with two parts:
+1) A one-sentence plain-English summary at the top (very simple).
+2) An ACTION block at the end, each action on its own line prefixed with "ACTION:".
+
+When the user requests to add components and wire them, output ADD actions (e.g. ACTION: add_switch_at 200 200). The frontend will **create** add_* items immediately (so they have real IDs). After creating items, the assistant will be called again with the updated canvas snapshot, and must then output connection actions that use the real IDs.
+
+Valid action forms (case-insensitive after "ACTION:"):
+- add_<type>
+- add_<type>_at <x> <y>
+- connect <fromId> <toId>
+- connect_by_ports <fromId> <fromPort> <toId> <toPort>
+- place_chain dff <N> <star
+[2025-11-16T13:32:41.561Z] [proxy] upstream result status= 200 ok= true
+[2025-11-16T13:32:41.563Z] [proxy] reply length: 142
+[2025-11-16T16:15:51.028Z] [proxy] incoming request provider= groq model= llama-3.1-8b-instant messages= 2
+[2025-11-16T16:15:51.031Z] [proxy] first message snippet: You are a simple, friendly assistant for a browser logic-circuit builder. Always reply with two parts:
+1) A one-sentence plain-English summary at the top (very simple).
+2) An ACTION block at the end, each action on its own line prefixed with "ACTION:".
+
+When the user requests to add components and wire them, output ADD actions (e.g. ACTION: add_switch_at 200 200). The frontend will **create** add_* items immediately (so they have real IDs). After creating items, the assistant will be called again with the updated canvas snapshot, and must then output connection actions that use the real IDs.
+
+Valid action forms (case-insensitive after "ACTION:"):
+- add_<type>
+- add_<type>_at <x> <y>
+- connect <fromId> <toId>
+- connect_by_ports <fromId> <fromPort> <toId> <toPort>
+- place_chain dff <N> <star
+[2025-11-16T16:15:51.311Z] [proxy] upstream result status= 200 ok= true
+[2025-11-16T16:15:51.312Z] [proxy] reply length: 156
+[2025-11-16T16:15:51.325Z] [proxy] incoming request provider= groq model= llama-3.1-8b-instant messages= 2
+[2025-11-16T16:15:51.326Z] [proxy] first message snippet: You are a simple, friendly assistant for a browser logic-circuit builder. Always reply with two parts:
+1) A one-sentence plain-English summary at the top (very simple).
+2) An ACTION block at the end, each action on its own line prefixed with "ACTION:".
+
+When the user requests to add components and wire them, output ADD actions (e.g. ACTION: add_switch_at 200 200). The frontend will **create** add_* items immediately (so they have real IDs). After creating items, the assistant will be called again with the updated canvas snapshot, and must then output connection actions that use the real IDs.
+
+Valid action forms (case-insensitive after "ACTION:"):
+- add_<type>
+- add_<type>_at <x> <y>
+- connect <fromId> <toId>
+- connect_by_ports <fromId> <fromPort> <toId> <toPort>
+- place_chain dff <N> <star
+[2025-11-16T16:15:51.589Z] [proxy] upstream result status= 200 ok= true
+[2025-11-16T16:15:51.590Z] [proxy] reply length: 223
+[2025-11-16T16:16:54.996Z] [proxy] incoming request provider= groq model= llama-3.1-8b-instant messages= 2
+[2025-11-16T16:16:54.998Z] [proxy] first message snippet: You are a simple, friendly assistant for a browser logic-circuit builder. Always reply with two parts:
+1) A one-sentence plain-English summary at the top (very simple).
+2) An ACTION block at the end, each action on its own line prefixed with "ACTION:".
+
+When the user requests to add components and wire them, output ADD actions (e.g. ACTION: add_switch_at 200 200). The frontend will **create** add_* items immediately (so they have real IDs). After creating items, the assistant will be called again with the updated canvas snapshot, and must then output connection actions that use the real IDs.
+
+Valid action forms (case-insensitive after "ACTION:"):
+- add_<type>
+- add_<type>_at <x> <y>
+- connect <fromId> <toId>
+- connect_by_ports <fromId> <fromPort> <toId> <toPort>
+- place_chain dff <N> <star
+[2025-11-16T16:16:57.645Z] [proxy] upstream result status= 200 ok= true
+[2025-11-16T16:16:57.647Z] [proxy] reply length: 124
+[2025-11-16T16:16:57.659Z] [proxy] incoming request provider= groq model= llama-3.1-8b-instant messages= 2
+[2025-11-16T16:16:57.661Z] [proxy] first message snippet: You are a simple, friendly assistant for a browser logic-circuit builder. Always reply with two parts:
+1) A one-sentence plain-English summary at the top (very simple).
+2) An ACTION block at the end, each action on its own line prefixed with "ACTION:".
+
+When the user requests to add components and wire them, output ADD actions (e.g. ACTION: add_switch_at 200 200). The frontend will **create** add_* items immediately (so they have real IDs). After creating items, the assistant will be called again with the updated canvas snapshot, and must then output connection actions that use the real IDs.
+
+Valid action forms (case-insensitive after "ACTION:"):
+- add_<type>
+- add_<type>_at <x> <y>
+- connect <fromId> <toId>
+- connect_by_ports <fromId> <fromPort> <toId> <toPort>
+- place_chain dff <N> <star
+[2025-11-16T16:16:58.917Z] [proxy] upstream result status= 200 ok= true
+[2025-11-16T16:16:58.919Z] [proxy] reply length: 133
+[2025-11-17T17:41:36.525Z] [proxy] incoming request provider= groq model= llama-3.1-8b-instant messages= 2
+[2025-11-17T17:41:36.529Z] [proxy] first message snippet: You are a simple, friendly assistant for a browser logic-circuit builder. Always reply with two parts:
+1) A one-sentence plain-English summary at the top (very simple).
+2) An ACTION block at the end, each action on its own line prefixed with "ACTION:".
+
+When the user requests to add components and wire them, output ADD actions (e.g. ACTION: add_switch_at 200 200). The frontend will **create** add_* items immediately (so they have real IDs). After creating items, the assistant will be called again with the updated canvas snapshot, and must then output connection actions that use the real IDs.
+
+Valid action forms (case-insensitive after "ACTION:"):
+- add_<type>
+- add_<type>_at <x> <y>
+- connect <fromId> <toId>
+- connect_by_ports <fromId> <fromPort> <toId> <toPort>
+- place_chain dff <N> <star
+[2025-11-17T17:41:36.936Z] [proxy] upstream result status= 200 ok= true
+[2025-11-17T17:41:36.937Z] [proxy] reply length: 93
+[2025-11-17T17:41:36.958Z] [proxy] incoming request provider= groq model= llama-3.1-8b-instant messages= 2
+[2025-11-17T17:41:36.961Z] [proxy] first message snippet: You are a simple, friendly assistant for a browser logic-circuit builder. Always reply with two parts:
+1) A one-sentence plain-English summary at the top (very simple).
+2) An ACTION block at the end, each action on its own line prefixed with "ACTION:".
+
+When the user requests to add components and wire them, output ADD actions (e.g. ACTION: add_switch_at 200 200). The frontend will **create** add_* items immediately (so they have real IDs). After creating items, the assistant will be called again with the updated canvas snapshot, and must then output connection actions that use the real IDs.
+
+Valid action forms (case-insensitive after "ACTION:"):
+- add_<type>
+- add_<type>_at <x> <y>
+- connect <fromId> <toId>
+- connect_by_ports <fromId> <fromPort> <toId> <toPort>
+- place_chain dff <N> <star
+[2025-11-17T17:41:37.194Z] [proxy] upstream result status= 200 ok= true
+[2025-11-17T17:41:37.195Z] [proxy] reply length: 187
+[2025-11-17T17:42:23.653Z] [proxy] incoming request provider= groq model= llama-3.1-8b-instant messages= 2
+[2025-11-17T17:42:23.654Z] [proxy] first message snippet: You are a simple, friendly assistant for a browser logic-circuit builder. Always reply with two parts:
+1) A one-sentence plain-English summary at the top (very simple).
+2) An ACTION block at the end, each action on its own line prefixed with "ACTION:".
+
+When the user requests to add components and wire them, output ADD actions (e.g. ACTION: add_switch_at 200 200). The frontend will **create** add_* items immediately (so they have real IDs). After creating items, the assistant will be called again with the updated canvas snapshot, and must then output connection actions that use the real IDs.
+
+Valid action forms (case-insensitive after "ACTION:"):
+- add_<type>
+- add_<type>_at <x> <y>
+- connect <fromId> <toId>
+- connect_by_ports <fromId> <fromPort> <toId> <toPort>
+- place_chain dff <N> <star
+[2025-11-17T17:42:24.758Z] [proxy] upstream result status= 200 ok= true
+[2025-11-17T17:42:24.760Z] [proxy] reply length: 108
+[2025-11-17T17:42:24.776Z] [proxy] incoming request provider= groq model= llama-3.1-8b-instant messages= 2
+[2025-11-17T17:42:24.779Z] [proxy] first message snippet: You are a simple, friendly assistant for a browser logic-circuit builder. Always reply with two parts:
+1) A one-sentence plain-English summary at the top (very simple).
+2) An ACTION block at the end, each action on its own line prefixed with "ACTION:".
+
+When the user requests to add components and wire them, output ADD actions (e.g. ACTION: add_switch_at 200 200). The frontend will **create** add_* items immediately (so they have real IDs). After creating items, the assistant will be called again with the updated canvas snapshot, and must then output connection actions that use the real IDs.
+
+Valid action forms (case-insensitive after "ACTION:"):
+- add_<type>
+- add_<type>_at <x> <y>
+- connect <fromId> <toId>
+- connect_by_ports <fromId> <fromPort> <toId> <toPort>
+- place_chain dff <N> <star
+[2025-11-17T17:42:25.764Z] [proxy] upstream result status= 200 ok= true
+[2025-11-17T17:42:25.765Z] [proxy] reply length: 1103
+[2025-11-17T17:44:16.208Z] Starting robust AI proxy
+[2025-11-17T17:44:16.211Z] GROQ_API_KEY set? true OPENAI_API_KEY set? true port 5174
+[2025-11-17T17:44:16.218Z] AI proxy listening on http://localhost:5174/api/assistant
+[2025-11-17T17:47:00.429Z] [proxy] incoming request provider= groq model= llama-3.1-8b-instant messages= 2
+[2025-11-17T17:47:00.430Z] [proxy] first message snippet: You are a simple, friendly assistant for a browser logic-circuit builder. Always reply with two parts:
+1) A one-sentence plain-English summary at the top (very simple).
+2) An ACTION block at the end, each action on its own line prefixed with "ACTION:".
+
+When the user requests to add components and wire them, output ADD actions (e.g. ACTION: add_switch_at 200 200). The frontend will **create** add_* items immediately (so they have real IDs). After creating items, the assistant will be called again with the updated canvas snapshot, and must then output connection actions that use the real IDs.
+
+Valid action forms (case-insensitive after "ACTION:"):
+- add_<type>
+- add_<type>_at <x> <y>
+- connect <fromId> <toId>
+- connect_by_ports <fromId> <fromPort> <toId> <toPort>
+- place_chain dff <N> <star
+[2025-11-17T17:47:01.080Z] [proxy] upstream result status= 200 ok= true
+[2025-11-17T17:47:01.081Z] [proxy] reply length: 124
+[2025-11-17T17:47:01.106Z] [proxy] incoming request provider= groq model= llama-3.1-8b-instant messages= 2
+[2025-11-17T17:47:01.114Z] [proxy] first message snippet: You are a simple, friendly assistant for a browser logic-circuit builder. Always reply with two parts:
+1) A one-sentence plain-English summary at the top (very simple).
+2) An ACTION block at the end, each action on its own line prefixed with "ACTION:".
+
+When the user requests to add components and wire them, output ADD actions (e.g. ACTION: add_switch_at 200 200). The frontend will **create** add_* items immediately (so they have real IDs). After creating items, the assistant will be called again with the updated canvas snapshot, and must then output connection actions that use the real IDs.
+
+Valid action forms (case-insensitive after "ACTION:"):
+- add_<type>
+- add_<type>_at <x> <y>
+- connect <fromId> <toId>
+- connect_by_ports <fromId> <fromPort> <toId> <toPort>
+- place_chain dff <N> <star
+[2025-11-17T17:47:01.326Z] [proxy] upstream result status= 200 ok= true
+[2025-11-17T17:47:01.329Z] [proxy] reply length: 151
+[2025-11-17T17:55:34.701Z] Starting robust AI proxy
+[2025-11-17T17:55:34.707Z] GROQ_API_KEY set? true OPENAI_API_KEY set? true port 5174
+[2025-11-17T17:55:34.715Z] AI proxy listening on http://localhost:5174/api/assistant
